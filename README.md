@@ -1,10 +1,12 @@
 # todo-tag-app
 
 参考サイト<br>
-https://qiita.com/keitah/items/3092baf8be0e49e8d866
+https://rightcode.co.jp/blog/information-technology/docker-rails-environment-setup-syain<br>
 
+railsスタートアップコマンド一覧
+<br>
+https://zenn.dev/yukito0616/articles/7cd2dde18c90d4
 
-railsスタートアップコマンド
-```
-docker-compose run web rails new . --force --database=mysql --skip-bundle
-```
+rails new . --force --database=mysql --skip-bundle
+
+--skip-bundle
